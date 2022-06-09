@@ -1,4 +1,4 @@
-import express from "express";
+import * as express from "express";
 
 const app: express.Application = express();
 const port:number = 65000;
