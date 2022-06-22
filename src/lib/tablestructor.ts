@@ -15,4 +15,10 @@ export class constraint {
         this.constraintTableName = constraintTableName;
         this.constraintColumnName = constraintColumnName;
     }
+};
+
+export class columnStructor {
+    columnType: ColumnType;
+    mullable: boolean;
+    
 }
